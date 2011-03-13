@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<grid size="5 5 1">
+	<level>
+		<row><air/><wire/><air/><wire/><air/></row>
+		<row><wire/><wire/><air/><wire/><wire/></row>
+		<row><air/><air/><air/><air/><air/></row>
+		<row><wire/><wire/><air/><wire/><wire/></row>
+		<row><air/><wire/><air/><wire/><air/></row>
+	</level>
+</grid>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<grid size="15 15 3">
+	<level>
+		<row><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/></row>
+		<row><air/><lever input="A" orientation="east" state="on" mutable="false"/><wire/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/></row>
+		<row><air/><air/><block/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/></row>
+		<row><air/><air/><torch orientation="south">This is a comment! It might be useful if you can't remember what torches are for...</torch><wire output="1"/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/><air/></row>
+	</level>
+	<level>
+		<fill>
+			<air/>
+			<!-- I think this actually works by default with air blocks, but it's not guaranteed for anything else -->
+		</fill>
+	</level>
+	<level>
+		<fill>
+			<air/>
+		</fill>
+	</level>
+</grid>
